@@ -5,3 +5,7 @@ Content-Type: application/json
     "username": "user2@user.com",
     "password": "123456"
 }
+
+###
+GET http://localhost:3000/test-auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXJuYW1lIjoidXNlcjJAdXNlci5jb20iLCJpYXQiOjE3MjI1MTcxOTYsImV4cCI6MTcyMjUxNzI1Nn0.BLMuBO569QDpbawfZ0PsRGrxLb6wngQG68xRB8v60tA
